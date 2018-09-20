@@ -38,7 +38,6 @@ namespace FunctionApp1
             for (int i = 0; i < 100; i++)
             {
                 testString = testString + Guid.NewGuid().ToString();
-                string name = "My Name";
             }
 
             return testString;

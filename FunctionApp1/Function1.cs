@@ -25,8 +25,6 @@ namespace FunctionApp1
                 var myFuncDict1 = myBigStr1.MyBigString();
                 var myBigStr2 = myBigStr1.MyBigString2();
 
-            var testBitmapCls = new BuildImage();
-            var testBitMap = testBitmapCls.FinImageTest("finimage.jpg");
 
             string name1 = "Testsdkghsdjkhgkjsdhgkjshg;jsdhg;jsdfhg;jshdgjhsfd;jghds;kjghdf;sghsldfgjlsdkfhfsldkhg";
             byte[] nameinbyte = ASCIIEncoding.ASCII.GetBytes(name1);
