@@ -34,6 +34,10 @@ namespace FunctionApp1
                 Evil += delegate { };
             }
 
+            Program p = new Program();
+            p.Initialize(10);
+            var testStr = p.val.ToString();
+
             return req.CreateResponse(HttpStatusCode.OK, "Hello ");
         }
     }
