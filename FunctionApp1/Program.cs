@@ -13,7 +13,7 @@ namespace FunctionApp1
         {
             get
             {
-                return val == 10 ? 1 : 0;
+                return val == 10 ? 1 : 0; // the use of a public member causes a Stack Overflow which eventually crashes the process.
             }
             set
             {
