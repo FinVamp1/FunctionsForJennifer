@@ -26,6 +26,20 @@ namespace FunctionApp1
             GCHandle handle = GCHandle.Alloc(nameinbyte, GCHandleType.Pinned);
             throw new MyException();
 
+            //try
+            //{
+            //    // Operational Error that throws my exception.
+            //    if(true)
+            //    {
+            //        return req.CreateResponse(HttpStatusCode.OK, "Hello ");
+            //    }
+            //}
+            //catch (MyException)
+            //{
+
+            //    return req.CreateResponse(HttpStatusCode.BadRequest);
+            //}
+
         }
     }
 }
